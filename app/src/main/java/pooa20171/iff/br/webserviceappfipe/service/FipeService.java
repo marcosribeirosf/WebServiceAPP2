@@ -4,12 +4,12 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import br.net.twome.fipe.business.Marca;
-import br.net.twome.fipe.business.Modelo;
-import br.net.twome.fipe.business.Preco;
-import br.net.twome.fipe.business.Tipo;
-import br.net.twome.fipe.business.Veiculo;
-import br.net.twome.fipe.view.MainActivity;
+import pooa20171.iff.br.webserviceappfipe.business.Marca;
+import pooa20171.iff.br.webserviceappfipe.business.Modelo;
+import pooa20171.iff.br.webserviceappfipe.business.Preco;
+import pooa20171.iff.br.webserviceappfipe.business.Tipo;
+import pooa20171.iff.br.webserviceappfipe.business.Veiculo;
+import pooa20171.iff.br.webserviceappfipe.view.MainActivity;
 
 public class FipeService {
 

@@ -18,8 +18,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import br.net.twome.fipe.business.SimpleBean;
-import br.net.twome.fipe.view.MainActivity;
+import pooa20171.iff.br.webserviceappfipe.business.SimpleBean;
+import pooa20171.iff.br.webserviceappfipe.view.MainActivity;
 
 public abstract class FipeAsyncTask <T extends SimpleBean> extends AsyncTask<Void, Void, ArrayList<T>> {
 
