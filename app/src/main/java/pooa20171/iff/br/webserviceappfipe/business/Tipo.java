@@ -1,6 +1,6 @@
 package pooa20171.iff.br.webserviceappfipe.business;
 
-import br.net.twome.fipe.R;
+import pooa20171.iff.br.webserviceappfipe.R;
 
 public class Tipo extends SimpleBean{
 

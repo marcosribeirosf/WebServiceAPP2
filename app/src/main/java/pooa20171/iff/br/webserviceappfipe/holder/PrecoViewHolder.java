@@ -5,8 +5,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import br.net.twome.fipe.R;
-import br.net.twome.fipe.business.Preco;
+import pooa20171.iff.br.webserviceappfipe.R;
+import pooa20171.iff.br.webserviceappfipe.business.Preco;
 import im.delight.android.webview.AdvancedWebView;
 
 public class PrecoViewHolder extends SimpleBeanViewHolder<Preco>{
@@ -30,7 +30,7 @@ public class PrecoViewHolder extends SimpleBeanViewHolder<Preco>{
         tvCombustivel = (TextView) view.findViewById(R.id.tvCombustivel);
         tvMarca = (TextView) view.findViewById(R.id.tvMarca);
         tvAno = (TextView) view.findViewById(R.id.tvAno);
-        mWebView = (AdvancedWebView) view.findViewById(R.id.webview);
+        //mWebView = (AdvancedWebView) view.findViewById(R.id.webview);
     }
 
     public PrecoViewHolder(LayoutInflater inflater, ViewGroup parent) {
@@ -47,6 +47,6 @@ public class PrecoViewHolder extends SimpleBeanViewHolder<Preco>{
         tvCombustivel.setText(item.getCombustivel());
         tvAno.setText(item.isZeroKm()?"ZERO KM":item.getAnoModelo()+"");
         imgUrl = GOOGLE_IMG_URL+item.getMarca()+" "+item.getName()+(item.isZeroKm()?"":" "+item.getAnoModelo());
-        mWebView.loadUrl(imgUrl);
+        //mWebView.loadUrl(imgUrl);
     }
 }
