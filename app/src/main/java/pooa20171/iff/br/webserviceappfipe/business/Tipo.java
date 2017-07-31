@@ -6,8 +6,8 @@ public class Tipo extends SimpleBean{
 
     public static final Tipo[] TIPOS = {
             new Tipo("Carros", "carros", R.drawable.ic_directions_car_black_48dp),
-            new Tipo("Motos", "motos", R.drawable.ic_motorcycle_black_48dp),
-            new Tipo("Caminhões", "caminhoes", R.drawable.ic_local_shipping_black_48dp)
+            //new Tipo("Motos", "motos", R.drawable.ic_motorcycle_black_48dp),
+            //new Tipo("Caminhões", "caminhoes", R.drawable.ic_local_shipping_black_48dp)
     };
 
     private String tipo;
